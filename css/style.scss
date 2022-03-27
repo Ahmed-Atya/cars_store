@@ -1,0 +1,750 @@
+/* Start Main Rules*/
+$mainColor: #99000b;
+
+@font-face {
+  font-family: "Exo-ExtraBold";
+  src: url("../fonts/Exo-ExtraBold.ttf");
+}
+@font-face {
+  font-family: "Exo-SemiBold";
+  src: url("../fonts/Exo-Bold.ttf");
+}
+@font-face {
+  font-family: "Exo-bold";
+  src: url("../fonts/Exo-Bold.ttf");
+}
+@font-face {
+  font-family: "Exo-italic";
+  src: url("../fonts/Exo-Italic.ttf");
+}
+@font-face {
+  font-family: "Exo-medium-Italic";
+  src: url("../fonts/Exo-Medium.ttf");
+}
+@font-face {
+  font-family: "Exo-Medium";
+  src: url("../fonts/Exo-Medium.ttf");
+}
+@font-face {
+  font-family: "Exo-Light";
+  src: url("../fonts/Exo-Light.ttf");
+}
+@font-face {
+  font-family: "Exo-Regular";
+  src: url("../fonts/Exo-Regular.ttf");
+}
+/* End Main Rules*/
+/*Start Upper Bar*/
+.upper-bar{
+    background-color: #f9f4f4;
+    padding:6px 0;
+    @media(max-width:767px)
+    {
+      text-align: center
+    }
+    .phone i{margin-right: 10px}
+    .email i{margin-right: 10px}
+    .calender i{margin-right: 10px}
+    .links i{margin-right: 10px}
+    .phone i,
+   .email i,
+   .calender i,
+   .links i{margin-top: 10px}
+   .links button{
+    background-color: $mainColor;
+    color: #FFF;
+    padding: 9px 27px;
+    border: 1px solid $mainColor;
+    font-weight: bold;
+   }   
+} 
+/*End Upper Bar*/
+/*Start Navbar section */
+.navbar{
+    margin-top: 20px;
+    color:#333;
+    background-color: transparent;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-left: 40px;
+    margin-bottom: 35px;
+    .navbar-header .navbar-brand img{ width: 70%;}
+    .navbar-nav > .active > a,
+    .navbar-nav > .active > a:hover,
+    .navbar-nav > li> a:hover,
+    .navbar-nav > .active > a:focus
+    {
+    background-color: #FFF;
+    color: $mainColor;
+    border-bottom: 4px solid $mainColor;
+   }
+   .navbar-brand
+   {
+     @media(max-width:992px)
+     {
+       margin-left: 20px;
+     }
+   }
+}
+/*End Navbar section */
+/* Start About Us*/
+.about-us{
+    @extend %background;
+    background-image: url("../images/header-background.png");
+    height:800px;
+    padding: 100px 0 0 30px;
+    h5{
+      color: #FFF;
+      font-size: 18px;
+      letter-spacing: 1px;
+      border-left: 5px solid $mainColor;;
+      padding: 6px;
+      margin-top: 240px;
+      font-family: "Exo-bold";
+  }
+   h1{
+    color: #FFF;;;
+    padding: 6px;
+    font-weight: bold;
+    font-family: "Exo-ExtraBold";
+    letter-spacing: 1px;
+    span.model{
+      font-size: 20px;
+      font-weight: normal;
+      margin-right: 20px
+    }
+    span.time{
+      font-size: 20px;
+      font-weight: normal;
+      background-color: $mainColor;
+    }
+  }
+  button{
+    background-color: #FFF;
+    border-radius: 20px;
+    padding: 10px 22px;
+    border: 2px solid #FFF;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #b3adad;
+    i.fa-chevron-circle-right{
+      background-color: #FFF;
+      color: $mainColor;
+      font-size: 26px;
+      margin-left: 10px
+   }
+ } 
+}
+/* End About Us*/
+/* Start Car-form section*/
+.car-form{
+    background-color: #f5eded;
+    padding: 30px;
+    position: relative;
+    top: -50px;
+    form{
+     input[type="text"]
+     {
+       height: 45px;
+       border: 2px solid #dad8d8;
+       border-radius:6px;
+       -webkit-border-radius:6px;
+       -moz-border-radius:6px;
+       -ms-border-radius:6px;
+       -o-border-radius:6px;
+       padding-left: 15px;
+       width: 95%;
+      }
+     button{
+      background-color: #414141;
+      color: #FFF;
+      font-family:"Exo-bold";
+      font-weight: bold; 
+      padding: 10px 13px;
+      height: 45px;
+      width: 95%;
+      text-transform: uppercase;
+      border-radius:6px;
+      -webkit-border-radius:6px;
+      -moz-border-radius:6px;
+      -ms-border-radius:6px;
+      -o-border-radius:6px;
+      @media(min-width:992px)and(max-width:1199px)
+      {
+        width: 100%;
+      }
+      i
+      {
+        font-size: 20px;
+        margin-left: 10px ;
+        color: #FFF
+       }
+     }
+   }
+}
+ 
+/* End Car-form section*/
+/* Start Our-Products*/
+.our-products{
+  font-family: "Exo-ExtraBold";
+  padding: 0 0 50px;
+  img{
+    max-width: 100%;
+    margin-top: 30px
+   }
+   h5{
+    color: $mainColor;
+    margin-bottom: 20px
+  }
+  h1{
+    color: #535353;
+    font-weight: normal;
+    font-size: 35px;
+    margin-top: 40px;
+    margin-bottom: 35px;
+    letter-spacing: 3px
+   }
+   p{
+    color: #A7A7A7;
+    line-height: 1.7;
+    font-size: 18px
+   }
+   button{
+    background-color: $mainColor;
+    color: #FFF;
+    padding: 15px 60px;
+    border-radius: 25px;
+    font-weight: normal;
+    font-size: 15px;
+    letter-spacing: 1px;
+    border: 1px solid $mainColor;
+  }
+}
+#port .mix{
+  display: none;
+}
+/* End Our-Products*/
+/* Start Best-Offers */
+.best-offers{
+    @extend %background;
+    background-image: url("../images/transparent-back.png");
+    background-attachment: fixed;
+    font-family: 'Exo', sans-serif;
+    padding: 30px 0;
+    h1{
+      text-transform: uppercase;
+      margin-bottom: 25px;
+      font-weight: normal;
+      span{font-weight: bold}
+   }
+   .offer{
+     margin-bottom: 20px;
+     .feat{
+      margin-bottom: 60px;
+      h2{
+          margin-bottom: 26px;
+          font-size: 25px;
+          font-family: "Exo-bold";
+        }
+        p{
+          font-family: "Exo-Medium";
+          line-height: 1.6;
+          color: #afa9a9;
+          width: 90%
+        }
+        i{margin-bottom: 15px}
+      }
+    }
+    h3{
+      font-family: "Exo-bold";
+    }
+}
+/* End Best-Offers */
+/* Start Sale Section*/
+.sale{
+    background-color: #f8f1f1;
+    padding:0 0 28px;
+    @media(min-width:992px)and(max-width:1199px)
+    {
+     margin: 40px auto
+    }
+    .container {
+      padding-right: 0;
+      padding-left: 0;
+      margin-left: 0;
+    }
+    .image-container{
+      background-color: #000;
+      padding: 0;
+      width:auto
+    }
+    img{
+
+      height: 453px;
+      margin-top: 60px;
+      z-index: 2;
+      position: relative
+     }
+     .head-box{
+      background-color: #f8f1f1;
+      height: auto;
+      margin-top: 40px;
+      padding-top: 40px;
+      font-family: 'Exo', sans-serif;
+      float:right;
+      @media(max-width:1199px)
+      {
+        float: left;
+        padding-left: 20px;
+      }
+      @media(max-width:575px)
+      {
+        text-align: center
+      }
+      ul{
+        font-weight: bold;
+        color: #535353;
+        span{
+          font-weight: normal;
+          color: #9e9e9e
+         }
+         li{margin-bottom: 25px}
+      }
+      button
+      {
+        background-color: $mainColor;
+        color: #FFF;
+        padding: 8px 35px;
+        border: none;
+        font-family: "Exo-Bold";
+        font-size: 15px;
+        font-weight: bold;
+        border-radius: 15px;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
+        @media(max-width:575px)
+        {
+         margin-bottom: 20px
+        }
+       }
+     }
+     h5{
+      font-size: 29px;
+      color: #cac9c9;
+      font-family: "Exo-Light";
+      margin-top: 30px;
+    }
+}
+@media screen and (max-width:767px){
+    .sale{margin-bottom: 60px} 
+}
+
+/* End Sale Section*/
+/* Start Our-Products section*/
+.our-projects{
+  padding: 50px 0;
+  h2{
+    color: #afafaf;
+    font-family: "Exo-bold";
+  }
+  h3{
+    color: #000;
+    font-family: "Exo-bold";
+    margin-bottom: 40px
+  }
+  ul {
+    li
+    {
+      display: inline-block;
+      border: 2px solid #D4cccc;
+      color: #A7A7A7;
+      padding: 10px;
+      border-radius: 5px;
+      margin-right: 5px;
+      font-family: "Exo-SemiBold";
+      }
+    .active
+    {
+    background-color: $mainColor;
+    color: #fff;
+    border: 2px solid $mainColor;
+    font-family: "Exo-bold";
+    }
+ }
+ .projects
+  {
+    margin-top: 50px;
+    overflow: hidden;
+    .row > div img
+      {
+       max-width: 100%
+      } 
+      .row{
+        .mix{margin-bottom: 30px}
+        .rate
+            {
+            margin-top: 20px;
+            text-align: center
+            }
+            .car-info {
+              h5,
+            .car-info h6
+             {
+              font-family: "Exo-bold";
+              span{
+                color: #a59f9f;
+                text-decoration: line-through;
+                font-size: 11px
+              }
+             }
+             .line1,
+             .line2
+              {
+              display: block;
+              background-color: #a59f9f;
+              margin:5px auto;
+              }
+              .line1
+                {
+                width: 30px;
+                height: 3px;
+                }
+                .line2
+                {
+                width: 60px;
+                height: 3px;
+                }
+                                
+            }
+      } 
+   }
+    .shuffle
+    {
+    cursor: pointer;
+    }
+   }
+.mix .checked {
+    color: orange;
+}
+/* End Our-Products section*/
+/*Start Statstics Section*/
+.statistics{
+  background-image: url(../images/statistics-background.png);
+  @extend %background;
+  font-family: "Exo-bold";
+  width: 100%;
+  height: 300px;
+  @media(max-width:767px)
+  {
+    height: 500px;
+  }
+  .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(171, 0, 1, .756);
+    padding: 63px 0;
+    @media(max-width:767px)
+    {
+      padding: 40px 0;
+    }
+  }
+  .statis
+  {
+    @media(max-width:767px)
+    {
+        margin-bottom: 25px
+    }
+    h4{
+      text-transform: uppercase;
+      margin-bottom: 20px;
+      height: 45px;
+    }
+    h4,
+    span{
+      color: #FFF
+     }
+  }
+  img{
+    width: 40px;
+    margin-right: 10px
+  }
+  span{
+    font-size: 45px;
+    @media(max-width:767px)
+    {
+      font-size: 26px;
+    }
+  }
+} 
+/*End Statstics Section*/
+/*Start Blog-News Section*/
+.blog-news{
+ background-color: #EEE;
+ padding: 60px 0;
+ h4{
+  font-family: "Exo-Medium";
+  color: #a7a7a7
+ }
+ h3{
+  font-family: "Exo-SemiBold";
+  letter-spacing: 3px;
+  font-size: 28px;
+  margin-bottom: 20px
+ }
+ span.line{
+  display: inline-block;
+  width: 100px;
+  height: 3px;
+  margin: 15px auto;
+  background-color: #a7a7a7;
+  margin-bottom: 20px
+ }
+ .news-piece{
+  background-color: #FFF;
+  padding: 23px 7px 75px;
+  margin-bottom: 25px;
+  @media(min-width:768px)and(max-width:991px)
+  {
+    padding-bottom: 90px;
+  }
+  h5,
+ .line{
+    font-family: "Exo-ExtraBold";
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: #686f66;
+    margin-top: 26px;
+   }
+   .line{
+    margin-top: 10px
+  }
+  p{
+    font-family: "Exo-Medium";
+    color: #a7a7a7;
+    margin-bottom: 36px;
+  }
+  .personal-info{
+    img{
+      margin-right: 15px
+    }
+    span{
+      color: #a7a7a7;
+      font-family: "Exo-Medium";
+    }
+  }
+  button{
+      background-color: #FFF;
+      border-radius: 12px;
+      border: 2px solid #E6DDDD;
+      padding: 5px 13px;
+    }
+ }
+}
+/*End Blog-News Section*/
+/*Start Testimonails section*/
+.testimonials{
+  background-image: url("../images/testimonials-back.png");
+  width: 100%;
+  background-position: top;
+  background-size: cover;
+  min-height: 650px;
+  position: relative;
+  color: #FFF;
+  .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(171, 0, 1, .86);
+    padding: 75px 0;
+    @media(min-width:480px)and(max-width:991px)
+    {
+      padding: 45px 0;
+    }
+  }
+  .testim{
+    display: none;
+    img{
+       margin-bottom: 25px;
+       height: 150px;
+       width: 150px;
+       border-radius:50%;
+       -webkit-border-radius:50%;
+       -moz-border-radius:50%;
+       -ms-border-radius:50%;
+       -o-border-radius:50%;
+       border: 3px dashed #FFF;
+       }
+    h2{
+      font-family: "Exo-SemiBold";
+      font-size: 63px;
+      letter-spacing: 2px;
+      @media(max-width:479px)
+      {
+        font-size:56px
+      }
+     }
+    h4{
+      font-family: "Exo-medium-Italic";
+      letter-spacing: 2px;
+      margin-bottom: 36px;
+     @media(min-width:480px)and(max-width:991px)
+     {
+      margin-bottom: 26px
+     }
+    }
+    blockqoute{
+      font-size: 19px;
+      line-height: 1.7;
+      font-family: "Exo-medium-Italic";
+       @media(min-width:480px)and(max-width:991px)
+     {
+      line-height: 1.2;
+     }
+    }
+    .fa-quote-left{
+      position: relative;
+      left: -40%;
+      top: -24px;
+     }
+     .fa-quote-right{
+      position: relative;
+      bottom: -10px;
+      right: -40%;
+     }
+  }
+  .active{
+    display: block;
+    position: relative
+  }
+}
+/*End Testimonails section*/
+/*Strat Our-Clients Section*/
+.our-clients{
+  font-family: "Exo-SemiBold";
+  padding: 45px 0;
+  h5{
+    margin-top: 1px;
+    color: #a7a7a7;
+    margin-bottom: 25px
+   }
+   span{
+    background-color: #a7a7a7;
+    width: 98px;
+    height: 5px;
+    display: inline-block;
+    margin-bottom: 40px
+  }
+  img{
+    opacity: .25;
+    transition: .6s;
+    cursor: pointer;
+    &:hover{
+      opacity: 1;;
+    }
+  }
+  .third{
+    img{margin-top: 14px}
+  }
+}
+/*End Our-Clients section*/
+/*Start Footer*/
+footer{
+    background-color: #000;
+    padding: 35px 0;
+    color: #FFF;
+    h3{
+      font-family: "Exo-SemiBold"
+     }
+     .colored-line{
+      width: 100%;
+      height: 5px;
+      background-color: #FFF;
+      margin-bottom: 20px;
+      span{
+        display: block;
+        background-color: $mainColor;
+        height: 5px
+       }
+       .one{
+        width: 120px
+       }
+       .two{
+        width: 150px   
+       }
+       .three{
+        width: 200px   
+       }
+     }
+     ul{
+      li{
+        font-family: "Exo-SemiBold";
+        margin-bottom: 12px;
+        img{
+          margin-right: 15px;
+          margin-bottom: 12px
+         }
+       }
+     }
+     p{
+      font-family: "Exo-SemiBold";
+      line-height: 1.6;
+      margin-bottom: 15px
+     }
+     input[type="email"]{
+      width: 60%;
+      height: 40px;
+      color: #928686; 
+      margin-bottom: 20px;
+      padding-left: 15px
+     }
+     input[type="submit"]{
+      width: 25%;
+      height: 40px;
+      color: #FFF;
+      background-color: $mainColor;
+      border: none;
+      margin-bottom: 20px
+      }
+      input[type="checkbox"]{
+        display: block;
+        margin-bottom: 16px;
+        background-color: #808080;
+        font-size: 18px
+       }
+       .condition {
+        color: #9b8f8f;
+        font-family: "Exo-SemiBold";
+        line-height: 1.6;
+        margin-bottom: 15px
+       }
+}
+/*End Footer*/
+/*Start Copy Section*/
+.copy{
+ background-color: #000;
+ color: #FFF;
+ padding: 5px 0;
+ margin-top: -25px
+}
+.copy .social-icons i{
+ margin-right: 15px
+}
+.copy p{
+  font-family: "Exo-SemiBold";
+}
+/*End Copy Section*/
+%background{
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat;
+}

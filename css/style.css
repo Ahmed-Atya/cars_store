@@ -1,0 +1,768 @@
+/* Start Main Rules*/
+@font-face {
+  font-family: "Exo-ExtraBold";
+  src: url("../fonts/Exo-ExtraBold.ttf");
+}
+@font-face {
+  font-family: "Exo-SemiBold";
+  src: url("../fonts/Exo-Bold.ttf");
+}
+@font-face {
+  font-family: "Exo-bold";
+  src: url("../fonts/Exo-Bold.ttf");
+}
+@font-face {
+  font-family: "Exo-italic";
+  src: url("../fonts/Exo-Italic.ttf");
+}
+@font-face {
+  font-family: "Exo-medium-Italic";
+  src: url("../fonts/Exo-Medium.ttf");
+}
+@font-face {
+  font-family: "Exo-Medium";
+  src: url("../fonts/Exo-Medium.ttf");
+}
+@font-face {
+  font-family: "Exo-Light";
+  src: url("../fonts/Exo-Light.ttf");
+}
+@font-face {
+  font-family: "Exo-Regular";
+  src: url("../fonts/Exo-Regular.ttf");
+}
+/* End Main Rules*/
+/*Start Upper Bar*/
+.upper-bar {
+  background-color: #f9f4f4;
+  padding: 6px 0;
+}
+@media (max-width: 767px) {
+  .upper-bar {
+    text-align: center;
+  }
+}
+.upper-bar .phone i {
+  margin-right: 10px;
+}
+.upper-bar .email i {
+  margin-right: 10px;
+}
+.upper-bar .calender i {
+  margin-right: 10px;
+}
+.upper-bar .links i {
+  margin-right: 10px;
+}
+.upper-bar .phone i,
+.upper-bar .email i,
+.upper-bar .calender i,
+.upper-bar .links i {
+  margin-top: 10px;
+}
+.upper-bar .links button {
+  background-color: #99000b;
+  color: #FFF;
+  padding: 9px 27px;
+  border: 1px solid #99000b;
+  font-weight: bold;
+}
+
+/*End Upper Bar*/
+/*Start Navbar section */
+.navbar {
+  margin-top: 20px;
+  color: #333;
+  background-color: transparent;
+  border: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-left: 40px;
+  margin-bottom: 35px;
+}
+.navbar .navbar-header .navbar-brand img {
+  width: 70%;
+}
+.navbar .navbar-nav > .active > a,
+.navbar .navbar-nav > .active > a:hover,
+.navbar .navbar-nav > li > a:hover,
+.navbar .navbar-nav > .active > a:focus {
+  background-color: #FFF;
+  color: #99000b;
+  border-bottom: 4px solid #99000b;
+}
+@media (max-width: 992px) {
+  .navbar .navbar-brand {
+    margin-left: 20px;
+  }
+}
+
+/*End Navbar section */
+/* Start About Us*/
+.about-us {
+  background-image: url("../images/header-background.png");
+  height: 800px;
+  padding: 100px 0 0 30px;
+}
+.about-us h5 {
+  color: #FFF;
+  font-size: 18px;
+  letter-spacing: 1px;
+  border-left: 5px solid #99000b;
+  padding: 6px;
+  margin-top: 240px;
+  font-family: "Exo-bold";
+}
+.about-us h1 {
+  color: #FFF;
+  padding: 6px;
+  font-weight: bold;
+  font-family: "Exo-ExtraBold";
+  letter-spacing: 1px;
+}
+.about-us h1 span.model {
+  font-size: 20px;
+  font-weight: normal;
+  margin-right: 20px;
+}
+.about-us h1 span.time {
+  font-size: 20px;
+  font-weight: normal;
+  background-color: #99000b;
+}
+.about-us button {
+  background-color: #FFF;
+  border-radius: 20px;
+  padding: 10px 22px;
+  border: 2px solid #FFF;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #b3adad;
+}
+.about-us button i.fa-chevron-circle-right {
+  background-color: #FFF;
+  color: #99000b;
+  font-size: 26px;
+  margin-left: 10px;
+}
+
+/* End About Us*/
+/* Start Car-form section*/
+.car-form {
+  background-color: #f5eded;
+  padding: 30px;
+  position: relative;
+  top: -50px;
+}
+.car-form form input[type="text"] {
+  height: 45px;
+  border: 2px solid #dad8d8;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  padding-left: 15px;
+  width: 95%;
+}
+.car-form form button {
+  background-color: #414141;
+  color: #FFF;
+  font-family: "Exo-bold";
+  font-weight: bold;
+  padding: 10px 13px;
+  height: 45px;
+  width: 95%;
+  text-transform: uppercase;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .car-form form button {
+    width: 100%;
+  }
+}
+.car-form form button i {
+  font-size: 20px;
+  margin-left: 10px;
+  color: #FFF;
+}
+
+/* End Car-form section*/
+/* Start Our-Products*/
+.our-products {
+  font-family: "Exo-ExtraBold";
+  padding: 0 0 50px;
+}
+.our-products img {
+  max-width: 100%;
+  margin-top: 30px;
+}
+.our-products h5 {
+  color: #99000b;
+  margin-bottom: 20px;
+}
+.our-products h1 {
+  color: #535353;
+  font-weight: normal;
+  font-size: 35px;
+  margin-top: 40px;
+  margin-bottom: 35px;
+  letter-spacing: 3px;
+}
+.our-products p {
+  color: #A7A7A7;
+  line-height: 1.7;
+  font-size: 18px;
+}
+.our-products button {
+  background-color: #99000b;
+  color: #FFF;
+  padding: 15px 60px;
+  border-radius: 25px;
+  font-weight: normal;
+  font-size: 15px;
+  letter-spacing: 1px;
+  border: 1px solid #99000b;
+}
+
+#port .mix {
+  display: none;
+}
+
+/* End Our-Products*/
+/* Start Best-Offers */
+.best-offers {
+  background-image: url("../images/transparent-back.png");
+  background-attachment: fixed;
+  font-family: 'Exo', sans-serif;
+  padding: 30px 0;
+}
+.best-offers h1 {
+  text-transform: uppercase;
+  margin-bottom: 25px;
+  font-weight: normal;
+}
+.best-offers h1 span {
+  font-weight: bold;
+}
+.best-offers .offer {
+  margin-bottom: 20px;
+}
+.best-offers .offer .feat {
+  margin-bottom: 60px;
+}
+.best-offers .offer .feat h2 {
+  margin-bottom: 26px;
+  font-size: 25px;
+  font-family: "Exo-bold";
+}
+.best-offers .offer .feat p {
+  font-family: "Exo-Medium";
+  line-height: 1.6;
+  color: #afa9a9;
+  width: 90%;
+}
+.best-offers .offer .feat i {
+  margin-bottom: 15px;
+}
+.best-offers h3 {
+  font-family: "Exo-bold";
+}
+
+/* End Best-Offers */
+/* Start Sale Section*/
+.sale {
+  background-color: #f8f1f1;
+  padding: 0 0 28px;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .sale {
+    margin: 40px auto;
+  }
+}
+.sale .container {
+  padding-right: 0;
+  padding-left: 0;
+  margin-left: 0;
+}
+.sale .image-container {
+  background-color: #000;
+  padding: 0;
+  width: auto;
+}
+.sale img {
+  height: 453px;
+  margin-top: 60px;
+  z-index: 2;
+  position: relative;
+}
+.sale .head-box {
+  background-color: #f8f1f1;
+  height: auto;
+  margin-top: 40px;
+  padding-top: 40px;
+  font-family: 'Exo', sans-serif;
+  float: right;
+}
+@media (max-width: 1199px) {
+  .sale .head-box {
+    float: left;
+    padding-left: 20px;
+  }
+}
+@media (max-width: 575px) {
+  .sale .head-box {
+    text-align: center;
+  }
+}
+.sale .head-box ul {
+  font-weight: bold;
+  color: #535353;
+}
+.sale .head-box ul span {
+  font-weight: normal;
+  color: #9e9e9e;
+}
+.sale .head-box ul li {
+  margin-bottom: 25px;
+}
+.sale .head-box button {
+  background-color: #99000b;
+  color: #FFF;
+  padding: 8px 35px;
+  border: none;
+  font-family: "Exo-Bold";
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+@media (max-width: 575px) {
+  .sale .head-box button {
+    margin-bottom: 20px;
+  }
+}
+.sale h5 {
+  font-size: 29px;
+  color: #cac9c9;
+  font-family: "Exo-Light";
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 767px) {
+  .sale {
+    margin-bottom: 60px;
+  }
+}
+/* End Sale Section*/
+/* Start Our-Products section*/
+.our-projects {
+  padding: 50px 0;
+}
+.our-projects h2 {
+  color: #afafaf;
+  font-family: "Exo-bold";
+}
+.our-projects h3 {
+  color: #000;
+  font-family: "Exo-bold";
+  margin-bottom: 40px;
+}
+.our-projects ul li {
+  display: inline-block;
+  border: 2px solid #D4cccc;
+  color: #A7A7A7;
+  padding: 10px;
+  border-radius: 5px;
+  margin-right: 5px;
+  font-family: "Exo-SemiBold";
+}
+.our-projects ul .active {
+  background-color: #99000b;
+  color: #fff;
+  border: 2px solid #99000b;
+  font-family: "Exo-bold";
+}
+.our-projects .projects {
+  margin-top: 50px;
+  overflow: hidden;
+}
+.our-projects .projects .row > div img {
+  max-width: 100%;
+}
+.our-projects .projects .row .mix {
+  margin-bottom: 30px;
+}
+.our-projects .projects .row .rate {
+  margin-top: 20px;
+  text-align: center;
+}
+.our-projects .projects .row .car-info h5,
+.our-projects .projects .row .car-info .car-info h6 {
+  font-family: "Exo-bold";
+}
+.our-projects .projects .row .car-info h5 span,
+.our-projects .projects .row .car-info .car-info h6 span {
+  color: #a59f9f;
+  text-decoration: line-through;
+  font-size: 11px;
+}
+.our-projects .projects .row .car-info .line1,
+.our-projects .projects .row .car-info .line2 {
+  display: block;
+  background-color: #a59f9f;
+  margin: 5px auto;
+}
+.our-projects .projects .row .car-info .line1 {
+  width: 30px;
+  height: 3px;
+}
+.our-projects .projects .row .car-info .line2 {
+  width: 60px;
+  height: 3px;
+}
+.our-projects .shuffle {
+  cursor: pointer;
+}
+
+.mix .checked {
+  color: orange;
+}
+
+/* End Our-Products section*/
+/*Start Statstics Section*/
+.statistics {
+  background-image: url(../images/statistics-background.png);
+  font-family: "Exo-bold";
+  width: 100%;
+  height: 300px;
+}
+@media (max-width: 767px) {
+  .statistics {
+    height: 500px;
+  }
+}
+.statistics .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(171, 0, 1, 0.756);
+  padding: 63px 0;
+}
+@media (max-width: 767px) {
+  .statistics .overlay {
+    padding: 40px 0;
+  }
+}
+@media (max-width: 767px) {
+  .statistics .statis {
+    margin-bottom: 25px;
+  }
+}
+.statistics .statis h4 {
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  height: 45px;
+}
+.statistics .statis h4,
+.statistics .statis span {
+  color: #FFF;
+}
+.statistics img {
+  width: 40px;
+  margin-right: 10px;
+}
+.statistics span {
+  font-size: 45px;
+}
+@media (max-width: 767px) {
+  .statistics span {
+    font-size: 26px;
+  }
+}
+
+/*End Statstics Section*/
+/*Start Blog-News Section*/
+.blog-news {
+  background-color: #EEE;
+  padding: 60px 0;
+}
+.blog-news h4 {
+  font-family: "Exo-Medium";
+  color: #a7a7a7;
+}
+.blog-news h3 {
+  font-family: "Exo-SemiBold";
+  letter-spacing: 3px;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+.blog-news span.line {
+  display: inline-block;
+  width: 100px;
+  height: 3px;
+  margin: 15px auto;
+  background-color: #a7a7a7;
+  margin-bottom: 20px;
+}
+.blog-news .news-piece {
+  background-color: #FFF;
+  padding: 23px 7px 75px;
+  margin-bottom: 25px;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .blog-news .news-piece {
+    padding-bottom: 90px;
+  }
+}
+.blog-news .news-piece h5,
+.blog-news .news-piece .line {
+  font-family: "Exo-ExtraBold";
+  font-size: 18px;
+  letter-spacing: 2px;
+  color: #686f66;
+  margin-top: 26px;
+}
+.blog-news .news-piece .line {
+  margin-top: 10px;
+}
+.blog-news .news-piece p {
+  font-family: "Exo-Medium";
+  color: #a7a7a7;
+  margin-bottom: 36px;
+}
+.blog-news .news-piece .personal-info img {
+  margin-right: 15px;
+}
+.blog-news .news-piece .personal-info span {
+  color: #a7a7a7;
+  font-family: "Exo-Medium";
+}
+.blog-news .news-piece button {
+  background-color: #FFF;
+  border-radius: 12px;
+  border: 2px solid #E6DDDD;
+  padding: 5px 13px;
+}
+
+/*End Blog-News Section*/
+/*Start Testimonails section*/
+.testimonials {
+  background-image: url("../images/testimonials-back.png");
+  width: 100%;
+  background-position: top;
+  background-size: cover;
+  min-height: 650px;
+  position: relative;
+  color: #FFF;
+}
+.testimonials .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(171, 0, 1, 0.86);
+  padding: 75px 0;
+}
+@media (min-width: 480px) and (max-width: 991px) {
+  .testimonials .overlay {
+    padding: 45px 0;
+  }
+}
+.testimonials .testim {
+  display: none;
+}
+.testimonials .testim img {
+  margin-bottom: 25px;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border: 3px dashed #FFF;
+}
+.testimonials .testim h2 {
+  font-family: "Exo-SemiBold";
+  font-size: 63px;
+  letter-spacing: 2px;
+}
+@media (max-width: 479px) {
+  .testimonials .testim h2 {
+    font-size: 56px;
+  }
+}
+.testimonials .testim h4 {
+  font-family: "Exo-medium-Italic";
+  letter-spacing: 2px;
+  margin-bottom: 36px;
+}
+@media (min-width: 480px) and (max-width: 991px) {
+  .testimonials .testim h4 {
+    margin-bottom: 26px;
+  }
+}
+.testimonials .testim blockqoute {
+  font-size: 19px;
+  line-height: 1.7;
+  font-family: "Exo-medium-Italic";
+}
+@media (min-width: 480px) and (max-width: 991px) {
+  .testimonials .testim blockqoute {
+    line-height: 1.2;
+  }
+}
+.testimonials .testim .fa-quote-left {
+  position: relative;
+  left: -40%;
+  top: -24px;
+}
+.testimonials .testim .fa-quote-right {
+  position: relative;
+  bottom: -10px;
+  right: -40%;
+}
+.testimonials .active {
+  display: block;
+  position: relative;
+}
+
+/*End Testimonails section*/
+/*Strat Our-Clients Section*/
+.our-clients {
+  font-family: "Exo-SemiBold";
+  padding: 45px 0;
+}
+.our-clients h5 {
+  margin-top: 1px;
+  color: #a7a7a7;
+  margin-bottom: 25px;
+}
+.our-clients span {
+  background-color: #a7a7a7;
+  width: 98px;
+  height: 5px;
+  display: inline-block;
+  margin-bottom: 40px;
+}
+.our-clients img {
+  opacity: .25;
+  transition: .6s;
+  cursor: pointer;
+}
+.our-clients img:hover {
+  opacity: 1;
+}
+.our-clients .third img {
+  margin-top: 14px;
+}
+
+/*End Our-Clients section*/
+/*Start Footer*/
+footer {
+  background-color: #000;
+  padding: 35px 0;
+  color: #FFF;
+}
+footer h3 {
+  font-family: "Exo-SemiBold";
+}
+footer .colored-line {
+  width: 100%;
+  height: 5px;
+  background-color: #FFF;
+  margin-bottom: 20px;
+}
+footer .colored-line span {
+  display: block;
+  background-color: #99000b;
+  height: 5px;
+}
+footer .colored-line .one {
+  width: 120px;
+}
+footer .colored-line .two {
+  width: 150px;
+}
+footer .colored-line .three {
+  width: 200px;
+}
+footer ul li {
+  font-family: "Exo-SemiBold";
+  margin-bottom: 12px;
+}
+footer ul li img {
+  margin-right: 15px;
+  margin-bottom: 12px;
+}
+footer p {
+  font-family: "Exo-SemiBold";
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+footer input[type="email"] {
+  width: 60%;
+  height: 40px;
+  color: #928686;
+  margin-bottom: 20px;
+  padding-left: 15px;
+}
+footer input[type="submit"] {
+  width: 25%;
+  height: 40px;
+  color: #FFF;
+  background-color: #99000b;
+  border: none;
+  margin-bottom: 20px;
+}
+footer input[type="checkbox"] {
+  display: block;
+  margin-bottom: 16px;
+  background-color: #808080;
+  font-size: 18px;
+}
+footer .condition {
+  color: #9b8f8f;
+  font-family: "Exo-SemiBold";
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+/*End Footer*/
+/*Start Copy Section*/
+.copy {
+  background-color: #000;
+  color: #FFF;
+  padding: 5px 0;
+  margin-top: -25px;
+}
+
+.copy .social-icons i {
+  margin-right: 15px;
+}
+
+.copy p {
+  font-family: "Exo-SemiBold";
+}
+
+/*End Copy Section*/
+.about-us, .best-offers, .statistics {
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+/*# sourceMappingURL=style.css.map */
